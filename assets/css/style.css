@@ -11,13 +11,13 @@
 
 /* Header Hero image*/
 
-#hero {
-    background-image: url(/assets/images/devbackground.webp);
-}
-
 body {
     font-family: "poppins", sans-serif;
     background-color: #a4c2d1; /* egg blue */
+}
+
+#hero {
+    background-image: url('assets/images/background.webp');
 }
 
 h1, h2 {
