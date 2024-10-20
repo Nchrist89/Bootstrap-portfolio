@@ -9,15 +9,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
-/* Header Hero image*/
-
 body {
     font-family: "poppins", sans-serif;
     background-color: #a4c2d1; /* egg blue */
-}
-
-#hero {
-    background-image: url('assets/images/background.webp');
 }
 
 h1, h2 {
@@ -39,4 +33,15 @@ h1, h2 {
 
 #contact {
     background-color: white;
+}
+
+/* Header */
+
+#hero {
+    background-color: #dbdcde; /* light grey */
+    background-image: url('/assets/images/background.webp');
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 500px;
+    padding: 5% 7%;
 }
